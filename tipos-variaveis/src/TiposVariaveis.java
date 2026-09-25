@@ -18,7 +18,15 @@ public class TiposVariaveis {
         //No entanto o valor de uma variável declarada como final não pode ser alterado, ou seja, ela se torna uma constante.
         final double VALOR_DE_PI = 3.14;
 
-        
+        System.out.println("Nome: " + nomePessoa);
+        System.out.println("Idade: " + idadePessoa);
+        System.out.println("Gênero: " + gender);
+        System.out.println("Salário Mínimo: " + salarioMinimo);
+        System.out.println("Altura: " + alturaPessoa);
+        System.out.println("Número curto: " + numeroCurto);
+        System.out.println("Número normal 1: " + numeroNormal1);
+        System.out.println("Número curto 2: " + numeroCurto2);
+        System.out.println("Valor de PI: " + VALOR_DE_PI);
         Locale.setDefault(Locale.US);
     }
 }
